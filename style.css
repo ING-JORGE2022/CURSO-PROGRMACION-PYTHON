@@ -1,0 +1,124 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+
+.header__principal{
+    background-color:#0067b1;
+    width: auto;
+    height: 60px;
+} 
+
+.header__logo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.mensaje{
+    width: 530px;
+    height: 770px;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    bottom: 800px;
+    left: 940px;
+    border-radius: 12px;
+    box-shadow: 0 0 16px rgba(0,0,0,.1);
+   
+    
+}
+
+.title{
+    text-align: center;
+    padding-top: 53px;
+    font-weight: 700px;
+    font-size: 29px;
+  
+    color: #0067b1;
+   
+}
+
+.sub_title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 34px;
+   color: #0067b1;
+}
+.icon{
+    position: absolute;
+    top: 182px;
+    left: 40px;
+}
+
+.parrafo{
+    width: 80%;
+    font-size: 19px;
+    color: #0067b1;
+    padding-left: 91px;
+    padding-top: 35px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+.linea {
+    border-top: 1px solid rgb(171, 171, 171);
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.form_list{
+    list-style: none;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  padding-left: 50px;
+}
+
+.decoration_input{
+   
+    width: 440px;
+    height: 44px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    border-radius: 10px;
+    border: 2px solid #657899;
+    padding: 0 5px 5px;
+    color: #0067b1;
+    margin-top: 19px;
+}
+
+ .tipo{
+font-weight: 700 ;
+
+}
+
+.button{
+    background-color: #1c8fe2;
+    width: 171px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    color: #f7f7f7;
+    padding: 8px 15px 7px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: .9rem;
+    position: relative;
+    left: 128px;
+    bottom: 13px;
+
+}
+
+.button:hover{
+    background-color: #0067b1;
+}
+.olvide_contraseña{
+    color: #0067b1;
+    text-align: center;
+}

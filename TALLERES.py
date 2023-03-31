@@ -102,4 +102,4 @@ if dias_trabajados > 20 and sueldo_basico < 1000000:
     print(f"{nombre}, por trabajar más de 20 días al mes y tener un sueldo menor a $1,000,000, se le otorgará un bono de alimentación de ${bono_alimentacion:,.2f}. que lo puedes redimir en supermercados de cadena o se agregara a la nomina, Por lo tanto, su sueldo total será de ${sueldo_total:,.2f}")
 
 print("codigo finalizado........")
-print ("Realizado por Jorge sarmiento romero TALLER #2  ")
+print ("Realizado por Jorge Andres Sarmiento Romero TALLER #2  ")

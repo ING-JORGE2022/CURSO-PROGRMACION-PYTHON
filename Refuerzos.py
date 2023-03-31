@@ -92,17 +92,17 @@
 
 # 5. Encuentra la suma de todos los números pares del 1 al
 # 100 ciclo for
-suma = 0
-for i in range(2, 101, 2):
-    suma += i
-print("La suma de todos los números pares del 1 al 100 es:", suma)
+# suma = 0
+# for i in range(2, 101, 2):
+#     suma += i
+# print("La suma de todos los números pares del 1 al 100 es:", suma)
 
-# otra forma 
+# # otra forma 
 
 
-# variable acumuladora
-acu = 0
+# # variable acumuladora
+# acu = 0
 
-for i in range(0,101,2):
-  acu = acu + i
-print(f"El total de la suma de los números pares del 0-100= {acu}")
+# for i in range(0,101,2):
+#   acu = acu + i
+# print(f"El total de la suma de los números pares del 0-100= {acu}")
