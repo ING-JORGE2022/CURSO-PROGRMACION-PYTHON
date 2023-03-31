@@ -119,6 +119,10 @@ font-weight: 700 ;
     background-color: #0067b1;
 }
 .olvide_contraseña{
+    padding-left: 172px;
     color: #0067b1;
-    text-align: center;
+}
+.cuenta{
+    padding-left: 130px;
+    color: #0067b1; 
 }
