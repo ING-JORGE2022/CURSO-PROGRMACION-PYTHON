@@ -15,10 +15,8 @@
             <img class="header__logo" src="./img/Logotipo.svg" alt="logo de colsubsidio"  width= 168px;>
         </div>
     </head>
-
 <main>
 <img src="./img/personas.jpg" alt="grupo de familia" >
-
 <div class="mensaje">
     <h2 class="title"> Bienvenido a</h2>
     <h2 class="sub_title">Colsubsidio Virtual</h2>
@@ -29,37 +27,37 @@
         <ul class="form_list">
             <li><label for="tipo_documento">Tipo de documento</label>
                 <br>
-                <select class="decoration_input tipo " name="tipo_documento">
+                <select class="decoration_input tipo " name="tipo_documento" id="tipo_documento">
                 <option value="cedula">Cédula de ciudadanía</option>
                 <option value="pasaporte">Pasaporte</option>
                 <option value="tarjeta_identidad">Tarjeta de identidad</option>
                 </select>
             </li>   
-            
-                <li>
-                    <label for="numero_documento">Número de documento:</label>
-                    <br>
-                    <input type="text" class="decoration_input" name="numero_documento">
-                </li>
-            
-                <li>
-                    <label for="password">Contraseña:</label>
-                    <br>
-                    <input type="password" class="decoration_input" name="password">
-                </li>
-            
-                <input  class="button" type="submit" value=" > ingresar">
-        </ul> 
-        <div>
-            <a  class= "olvide_contraseña" href="#">¿Olvidaste tu contraseña?</a>
-        </div>
-        <br>
-        <div>
-           <p class="cuenta">  ¿No tienes una cuenta? <span> <a href="#">Crea una cuenta </a>  </span> </p> 
-        </div>    
-      </form>    
+            <li>
+                <label for="numero_documento">Número de documento:</label>
+                <br>
+                <input type="text" class="decoration_input" name="numero_documento" id="numero_documento">
+            </li>
+        
+            <li>
+                <label for="password">Contraseña:</label>
+                <br>
+                <input type="password" class="decoration_input" name="password" id="password">
+            </li>
+        
+            <!-- <input  class="button" type="submit" value=" > ingresar"> -->
+            <button class="button" >Ir a inicio</button>
+    </ul> 
+    <div>
+        <a  class= "olvide_contraseña" href="#">¿Olvidaste tu contraseña?</a>
+    </div>
+    <br>
+    <div>
+       <p class="cuenta">  ¿No tienes una cuenta? <span> <a href="#">Crea una cuenta </a>  </span> </p> 
+    </div>    
+  </form>    
 </div>
 </main>
-
+<script src="main.js"></script>
 </body>
 </html>
