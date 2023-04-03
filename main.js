@@ -16,7 +16,7 @@ submitButton.addEventListener('click', (event) => {
     const mensaje = document.createElement('p');
     mensaje.style.color = 'red';
     
-    mensaje.textContent = 'Rellene los campos vacíos para poder continuar';
+    mensaje.textContent = 'Rellene los campos vacíos';
     
     const formList = document.querySelector('.form_list');
     formList.appendChild(mensaje);
